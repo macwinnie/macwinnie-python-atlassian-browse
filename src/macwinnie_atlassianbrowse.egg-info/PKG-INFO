@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: macwinnie-atlassianbrowse
-Version: 0.0.2
+Version: 0.0.3
 Summary: Selenium assisted implementation to execute actions on Atlassian tools.
 Home-page: https://github.com/macwinnie/python-atlassian-browse
 Author: macwinnie
