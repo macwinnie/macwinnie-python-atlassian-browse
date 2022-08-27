@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Python Atlassian Browser by @macwinnie</title>
+  </head>
+  <body>
+    <h1>Python Atlassian Browser by <a target="_blank" href="https://twitter.com/macwinnie">@macwinnie</a></h1>
+    <p>
+            This is the documentation overview for Atlassian Browser project by <a target="_blank" href="https://twitter.com/macwinnie">@macwinnie</a>.
+        </p>
+    <p>
+            To install this package, please run:<br/><br/>
+            <pre>
+        pip install macwinnie_atlassianbrowse
+            </pre>
+        </p>
+    <p>
+            Given this <code>.env</code> file in working directory ...:
+            <pre>
+        CONFLUENCE_URL="https://confluence.domain.tld/"
+        CONFLUENCE_USER="sysadmin-user"
+        CONFLUENCE_PASS="$uper?3cre#"
+            </pre>
+        </p>
+    <p>
+            ... one could run the Confluence automation like that:
+            <pre>
+        from macwinnie_atlassianbrowse.Atlassian import Confluence
+        c = Confluence()
+        c.login()
+        c.webSudo()
+            </pre>
+        </p>
+    <p>
+            The Sourcecode of the package can be found on <a target="_blank" href="https://github.com/macwinnie/python-atlassian-browse">GitHub</a>, the documentation you currently are reading can be found at <a href="https://macwinnie.github.io/python-atlassian-browse/">GitHub Pages</a> and was last updated on <span id="update_date">Sat Aug 27 14:05:25 UTC 2022</span>.
+        </p>
+    <p>
+            Feel free to inspect the specific module documentations:
+            <ul id="doc_list"><li><a target="_blank" href="mods/*.html">*.html</a></li></ul>
+        </p>
+  </body>
+</html>
